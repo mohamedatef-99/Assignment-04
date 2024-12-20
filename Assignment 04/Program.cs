@@ -34,6 +34,26 @@
         //    y = temp;
         //}
 
+        //static int sum(int[] arr)
+        //{
+        //    int sum = 0;
+        //    arr[0] = 100;
+        //    for (int i = 0; i < arr.Length; i++)
+        //    {
+        //        sum += arr[i];
+        //    }
+        //    return sum;
+        //}
+        //static int sum(ref int[] arr)
+        //{
+        //    int sum = 0;
+        //    arr[0] = 100;
+        //    for (int i = 0; i < arr.Length; i++)
+        //    {
+        //        sum += arr[i];
+        //    }
+        //    return sum;
+        //}
 
         static void Main(string[] args)
         {
@@ -137,7 +157,15 @@
             //Swap(ref A, ref B); 
             #endregion
 
+            #region Passing by ref
+            //int[] arr = { 1, 2, 3, 4, 5 };
+            //int result = sum(arr);
+            //Console.WriteLine(result);
 
+            //int[] arr = { 1, 2, 3, 4, 5 };
+            //int result = sum(ref arr);
+            //Console.WriteLine(result); 
+            #endregion
         }
     }
 }
