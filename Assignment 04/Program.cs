@@ -20,6 +20,20 @@
         //    }
         //}
 
+        //static void Swap(int x, int y)
+        //{
+        //    int temp = x;
+        //    x = y;
+        //    y = temp;
+        //}
+
+        //static void Swap(ref int x, ref int y)
+        //{
+        //    int temp = x;
+        //    x = y;
+        //    y = temp;
+        //}
+
 
         static void Main(string[] args)
         {
@@ -105,6 +119,22 @@
 
             //Program p = new Program();
             //p.PrintShape(); 
+            #endregion
+
+            #region Bassing By Value and Ref
+            // 1. Passing by value
+
+            //int A = 4;
+            //int B = 5;
+
+            //Swap(A, B);
+
+
+            // 2. Passing by reference
+            //int A = 4;
+            //int B = 5;
+
+            //Swap(ref A, ref B); 
             #endregion
 
 
