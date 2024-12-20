@@ -2,6 +2,25 @@
 {
     internal class Program
     {
+        //static void PrintShape()
+        //{
+        //    // Body
+        //    for (int i = 0; i < 5; i++)
+        //    {
+        //        Console.WriteLine("*****");
+        //    }
+        //}
+
+        //static void PrintShape(int count = 1)
+        //{
+        //    // Body
+        //    for (int i = 0; i < count; i++)
+        //    {
+        //        Console.WriteLine("*****");
+        //    }
+        //}
+
+
         static void Main(string[] args)
         {
 
@@ -65,6 +84,28 @@
             //} 
             #endregion
 
+            #region Functions
+            // Functions : Block of code that have name if u need to executer this code
+            // you can call this function by its name
+
+            // Function Prototype
+            // signature 
+            // name
+            // return type
+            // parameters
+            // Body (code)
+
+            // Call the function
+
+            //PrintShape(3);
+
+            // Method
+            // 1. Static Method
+            // 2. non static method
+
+            //Program p = new Program();
+            //p.PrintShape(); 
+            #endregion
 
 
         }
