@@ -38,6 +38,35 @@
             //   Console.WriteLine(num.Rank); 
             #endregion
 
+            #region Two D Array
+            // Two D Array
+            //int[,] Number = new int[3, 3];
+            //Number[0, 0] = 1;
+            //Number[0, 1] = 2;
+            //Number[0, 2] = 3;
+            //Number[1, 0] = 4;
+            //Number[1, 1] = 5;
+            //Number[1, 2] = 6;
+            //Number[2, 0] = 7;
+            //Number[2, 1] = 8;
+            //Number[2, 2] = 9;
+
+            //Console.WriteLine(Number[0,0]);
+            //Console.WriteLine(Number[0,1]);
+            //Console.WriteLine(Number[0,2]);
+
+
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    for (int j = 0; j < 3; j++)
+            //    {
+            //        Console.Write(Number[i, j]);
+            //    }
+            //} 
+            #endregion
+
+
+
         }
     }
 }
