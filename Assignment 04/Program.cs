@@ -55,6 +55,22 @@
         //    return sum;
         //}
 
+        //static int[] sum(int x, int y)
+        //{
+        //    int[] result = {1, 2, 3, 4, 5 };
+        //    return result;
+        //}
+
+        //static int sumarr(params int[] arr)
+        //{
+        //    int sum = 0;
+        //    for (int i = 0; i < arr.Length; i++)
+        //    {
+        //        sum += arr[i];
+        //    }
+        //    return sum;
+        //}
+
         static void Main(string[] args)
         {
 
@@ -166,6 +182,10 @@
             //int result = sum(ref arr);
             //Console.WriteLine(result); 
             #endregion
+
+            // Parameters
+            //int[] nums = { 1, 2, 3, 4, 5 };
+            //Console.WriteLine(sumarr(nums));
         }
     }
 }
