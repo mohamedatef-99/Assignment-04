@@ -67,7 +67,16 @@
         //} 
         #endregion
 
-
+        #region Q5
+        //static bool IsPrime(int number)
+        //{
+        //    for (int i = 2; i <= Math.Sqrt(number); i++)
+        //    {
+        //        if (number % i == 0) return false;
+        //    }
+        //    return true;
+        //} 
+        #endregion
 
 
         static void Main(string[] args)
@@ -146,6 +155,11 @@
             //Console.WriteLine(SumOfDigits(num)); 
             #endregion
 
+            #region Q5
+            //Console.Write("Enter a number: ");
+            //int num = int.Parse(Console.ReadLine());
+            //Console.WriteLine(IsPrime(num)); 
+            #endregion
 
         }
     }
