@@ -17,6 +17,36 @@
         //} 
         #endregion
 
+        #region Q2
+        //static int sumArray(int[] arr)
+        //{
+        //    int sum = 0;
+        //    arr[0] = 100;
+        //    for (int i = 0; i < arr.Length; i++)
+        //    {
+        //        sum += arr[i];
+
+        //    } 
+
+        //    return sum;
+        //}
+
+        //static int sumArray(ref int[] arr)
+        //{
+        //    int sum = 0;
+        //    arr[0] = 100;
+        //    for (int i = 0; i < arr.Length; i++)
+        //    {
+        //        sum += arr[i];
+
+        //    }
+
+        //    return sum;
+        //} 
+        #endregion
+
+
+
         static void Main(string[] args)
         {
             #region Q1
@@ -47,6 +77,24 @@
             //Console.WriteLine(x);
             //Console.WriteLine(Y); 
             #endregion
+
+            #region Q2
+            // passing by value
+            //int[] arr = { 1, 2, 3, 4, 5 };
+            //int result = sumArray(arr); 
+            //Console.WriteLine(result);  // 114
+
+            //Console.WriteLine(arr[0]); // 100
+
+
+            // passing by reference
+            //int[] arr = { 1, 2, 3, 4, 5 };
+            //int result = sumArray(ref arr);
+            //Console.WriteLine(result);  // 114
+
+            //Console.WriteLine(arr[0]); // 100 
+            #endregion
+
         }
     }
 }
