@@ -51,8 +51,23 @@
             int sum = x + y;
             int sub = a - b;
             return (sum, sub);
-        } 
+        }
         #endregion
+
+        #region Q4
+        //static int SumOfDigits(int number)
+        //{
+        //    int sum = 0;
+        //    while (number != 0)
+        //    {
+        //        sum += number % 10;
+        //        number /= 10;
+        //    }
+        //    return sum;
+        //} 
+        #endregion
+
+
 
 
         static void Main(string[] args)
@@ -123,6 +138,12 @@
             //var result = sumint(num1, num2, num3, num4);
             //Console.WriteLine($"Sum: {result.sum}");
             //Console.WriteLine($"Sub: {result.sub}"); 
+            #endregion
+
+            #region Q4
+            //Console.Write("Enter a number: ");
+            //int num = int.Parse(Console.ReadLine());
+            //Console.WriteLine(SumOfDigits(num)); 
             #endregion
 
 
