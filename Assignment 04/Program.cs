@@ -45,6 +45,14 @@
         //} 
         #endregion
 
+        #region Q3
+        static (int sum, int sub) sumint(int x, int y, int a, int b)
+        {
+            int sum = x + y;
+            int sub = a - b;
+            return (sum, sub);
+        } 
+        #endregion
 
 
         static void Main(string[] args)
@@ -94,6 +102,29 @@
 
             //Console.WriteLine(arr[0]); // 100 
             #endregion
+
+            #region Q3
+            //int num1, num2, num3, num4;
+            //bool flag1, flag2, flag3, flag4;
+            //do
+            //{
+            //    Console.Write("Enter first number: "); 
+            //    flag1 = int.TryParse(Console.ReadLine(), out num1);
+            //    Console.Write("Enter second number: ");
+            //    flag2 = int.TryParse(Console.ReadLine(), out num2);
+            //    Console.Write("Enter third number: ");
+            //    flag3 = int.TryParse(Console.ReadLine(), out num3);
+            //    Console.Write("Enter fourth number: ");
+            //    flag4 = int.TryParse(Console.ReadLine(), out num4);
+
+            //}
+            //while (!flag1 && !flag2 && !flag3 && !flag4 );
+
+            //var result = sumint(num1, num2, num3, num4);
+            //Console.WriteLine($"Sum: {result.sum}");
+            //Console.WriteLine($"Sub: {result.sub}"); 
+            #endregion
+
 
         }
     }
