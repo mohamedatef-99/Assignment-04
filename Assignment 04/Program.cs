@@ -90,6 +90,18 @@
         //} 
         #endregion
 
+        #region Q7
+        //static int factiorial(int num)
+        //{
+        //    int fact = 1;
+        //    for (int i = 1; i <= num; i++)
+        //    {
+        //        fact *= i;
+        //    }
+        //    return fact;
+        //} 
+        #endregion
+
 
         static void Main(string[] args)
         {
@@ -180,6 +192,10 @@
             //Console.WriteLine($"min: {min}, max: {max}"); 
             #endregion
 
+            #region Q7
+            //int num = 5;
+            //Console.WriteLine($"factorial of {num} : {factiorial(num)}"); 
+            #endregion
 
         }
     }
