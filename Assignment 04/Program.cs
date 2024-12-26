@@ -102,6 +102,16 @@
         //} 
         #endregion
 
+        #region Q8
+        //static string ChangeChar(string str, int position, char newChar)
+        //{
+        //    char[] arr = str.ToCharArray();
+        //    arr[position] = newChar;
+        //    return new string(arr);
+        //} 
+        #endregion
+
+
 
         static void Main(string[] args)
         {
@@ -196,6 +206,12 @@
             //int num = 5;
             //Console.WriteLine($"factorial of {num} : {factiorial(num)}"); 
             #endregion
+
+            #region Q8
+            //string str = "mohamed";
+            //Console.WriteLine(ChangeChar(str, 1, 'a')); 
+            #endregion
+
 
         }
     }
