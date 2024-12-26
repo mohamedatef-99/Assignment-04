@@ -212,7 +212,31 @@
             //Console.WriteLine(ChangeChar(str, 1, 'a')); 
             #endregion
 
+            #region Q9
+            //int size;
+            //bool flag;
+            //do
+            //{
+            //    Console.WriteLine("Enter the size of the array: ");
+            //    flag = int.TryParse(Console.ReadLine(), out size);
+            //} while (!flag);
 
+            //for (int i = 0; i < size; i++)
+            //{
+            //    for (int j = 0; j < size; j++)
+            //    {
+            //        if (i == j)
+            //        {
+            //            Console.Write($" {1} ");
+            //        }
+            //        else
+            //        {
+            //            Console.Write($" {0} ");
+            //        }
+            //    }
+            //    Console.WriteLine("\n");
+            //} 
+            #endregion
         }
     }
 }
